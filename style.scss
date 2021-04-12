@@ -1,0 +1,401 @@
+*, ::before, ::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+body{
+    background: #FFFFFF;
+}
+
+div.container__fluid{
+    width: 50%;
+    padding: 20px;
+}
+
+section.landing__page{
+    background: #ffffff;
+}
+
+nav.nav_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+a.nav_head{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    line-height: 20px;
+
+    span.red{
+        color: #EA524D;
+    }
+}
+
+ul.main{
+    list-style: none;
+    display: flex;
+
+    li.main_link{
+        margin-right: 20px;
+
+        a.link{
+            text-decoration: none;
+            color: #000000 !important;
+            font-size: 20px;
+
+            .active{
+                background: #EA524D;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+a.login_button{
+    background: #FFFFFF;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 550;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+div.body_div{
+    margin-top: 100px;
+    width: 100%;
+}
+
+div.main_content{
+    max-width: 90%;
+
+    h1.main-head {
+        position: relative;
+        font-family: Sofia Pro;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 80px;
+        color: #000000;
+        margin-bottom: 10px;
+
+        span.red{
+            color: #EA524D;
+        }
+    }
+
+    div.effect {
+        position: sticky;
+        transform: rotate(8.88deg);
+        position: absolute;
+        margin-top: 60px;
+        left: 530.13px;
+        top: 90.24px;
+
+        svg{
+            width: 75px;
+            height: 65px;
+        }
+    }
+
+    p.main-para {
+        font-size: 22px;
+        width: 70% !important;
+        margin-bottom: 30px;
+        font-weight: 500;
+        line-height: 24px;
+
+        span.red{
+            color: #EA524D;
+        }
+    }
+
+    div.meta {
+        margin-top: 50px;
+
+        a.contact_us{
+            font-family: Sofia Pro;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 20px;
+            text-decoration: none;
+            margin-right: 20px;
+            line-height: 24px;
+            background: #000000;
+            border-radius: 15px;
+            padding: 13.5px;
+            color: #FFFFFF;
+        }
+
+        a.testimonials{
+            font-family: Sofia Pro;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            padding: 11.5px;
+            text-decoration: none;
+            color: #000000;
+            background: #FFFFFF;
+            border: 4px solid #000000;
+            box-sizing: border-box;
+            border-radius: 15px;
+        }
+    }
+}
+
+div.row{
+    div.col{
+        display: grid;
+    }
+}
+
+footer.footer{
+    position: absolute;
+    margin-top: 60px;
+    left: 40.13px;
+    top: 550.24px;
+
+    p.copyright{
+        font-family: Sofia Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+
+        span.c{
+            color: #000000;
+            font-size: 16px;
+            font-weight: 550;
+        }
+    }
+}
+
+/* Hero section */
+
+// position: absolute;
+// width: 854.11px;
+// height: 481px;
+// left: 48px;
+// top: 265px;
+
+
+
+// /* Hero text */
+
+// position: absolute;
+// width: 727px;
+// height: 120px;
+// left: 48px;
+// top: 458px;
+
+
+
+// /* P3 */
+
+// position: absolute;
+// width: 301px;
+// height: 24px;
+// left: 48px;
+// top: 554px;
+
+// font-family: Sofia Pro;
+// font-style: normal;
+// font-weight: 500;
+// font-size: 24px;
+// line-height: 24px;
+// /* identical to box height */
+
+// color: #000000;
+
+
+
+// /* P2 */
+
+// position: absolute;
+// width: 679px;
+// height: 24px;
+// left: 48px;
+// top: 506px;
+
+// font-family: Sofia Pro;
+// font-style: normal;
+// font-weight: 900;
+// font-size: 24px;
+// line-height: 24px;
+// /* identical to box height */
+
+// color: #EA524D;
+
+
+
+// /* P1 */
+
+// position: absolute;
+// width: 727px;
+// height: 24px;
+// left: 48px;
+// top: 458px;
+
+// font-family: Sofia Pro;
+// font-style: normal;
+// font-weight: 500;
+// font-size: 24px;
+// line-height: 24px;
+// /* identical to box height */
+
+// color: #000000;
+
+
+
+// /* Explore */
+
+// position: absolute;
+// width: 296px;
+// height: 96px;
+// left: 299px;
+// top: 650px;
+
+
+
+// /* Container */
+
+// position: absolute;
+// width: 296px;
+// height: 96px;
+// left: 299px;
+// top: 650px;
+
+// background: #FFFFFF;
+// border: 4px solid #000000;
+// box-sizing: border-box;
+// border-radius: 24px;
+
+
+// /* See Testimonials */
+
+// position: absolute;
+// width: 188px;
+// height: 24px;
+// left: 353px;
+// top: 686px;
+
+// font-family: Sofia Pro;
+// font-style: normal;
+// font-weight: 900;
+// font-size: 24px;
+// line-height: 24px;
+// /* identical to box height */
+
+// color: #000000;
+
+
+
+// /* Buttons */
+
+// position: absolute;
+// width: 231px;
+// height: 96px;
+// left: 48px;
+// top: 650px;
+
+
+
+// /* Register */
+
+// position: absolute;
+// width: 231px;
+// height: 96px;
+// left: 48px;
+// top: 650px;
+
+
+
+// /* Container */
+
+// position: absolute;
+// width: 231px;
+// height: 96px;
+// left: 48px;
+// top: 650px;
+
+// background: #000000;
+// border-radius: 24px;
+
+
+// /* Contact Us */
+
+// position: absolute;
+// width: 123px;
+// height: 24px;
+// left: 102px;
+// top: 686px;
+
+// font-family: Sofia Pro;
+// font-style: normal;
+// font-weight: 900;
+// font-size: 24px;
+// line-height: 24px;
+// /* identical to box height */
+
+// color: #FFFFFF;
+
+
+
+// /* Effect */
+
+// position: absolute;
+// width: 79.34px;
+// height: 82.41px;
+// left: 823.72px;
+// top: 265px;
+
+// transform: rotate(8.88deg);
+
+
+// /* Vector 2 */
+
+// position: absolute;
+// width: 37px;
+// height: 70px;
+// left: 887.13px;
+// top: 334.24px;
+
+// border: 16px solid #EA524D;
+// transform: rotate(148.88deg);
+
+
+// /* Vector 1 */
+
+// position: absolute;
+// width: 37px;
+// height: 70px;
+// left: 893.83px;
+// top: 330.23px;
+
+// border: 16px solid #000000;
+// transform: rotate(148.88deg);
+
+
+// /* Header */
+
+// position: absolute;
+// width: 714px;
+// height: 80px;
+// left: 48px;
+// top: 334px;
+
+// font-family: Sofia Pro;
+// font-style: normal;
+// font-weight: 900;
+// font-size: 80px;
+// line-height: 80px;
+// /* identical to box height */
+
+// color: #000000;
