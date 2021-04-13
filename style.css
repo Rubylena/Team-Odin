@@ -427,7 +427,7 @@ footer.footer p.copyright span.c {
 
   nav.nav_head{
     padding: 0.5rem;
-    width: 80%;
+    width: 90%;
   }
 
   a.nav_head {
@@ -440,18 +440,19 @@ footer.footer p.copyright span.c {
   }
 
   div.container-fluid{
-    width: 100%;
+    width: 80%;
   }
 
   div.row{
     display: flex;
-    margin: 3rem;
+    margin-top: 3rem;
     flex-flow: wrap;
 
   }
 
   .meta{
     display: flex;
+    width: 80%;
   }
 
   div.main_content div.meta a.contact_us {
@@ -470,9 +471,6 @@ footer.footer p.copyright span.c {
 
 
   div.main_content div.meta a.testimonials {
-    font-family: Sofia Pro;
-    font-weight: bold;
-    font-size: 16px;
     line-height: 20px;
     padding: 7.5px;
     text-decoration: none;
@@ -505,6 +503,33 @@ footer.footer p.copyright span.c {
 
   .span-col-2{
     margin-top: 3rem;
+    width: 80%;
+  }
+
+  .span-col-3{
+    width: 100%;
+  }
+
+
+  .submit_btn {
+    position: relative;
+    top: 15px;
+    width: 10%;
+    background-color: black;
+    text-align: center;
+    padding: 13px 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+
+  div.main_content h1.main-head{
+    font-size: 43px;
+  }
+
+  .fe, .be, .de, .mo{
+   font-size: 8px;
+    
   }
 
   
