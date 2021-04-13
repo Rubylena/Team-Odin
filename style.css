@@ -1,12 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
-
 *, ::before, ::after {
   margin: 0%;
   padding: 0%;
@@ -75,15 +66,11 @@ a.login_button {
 
 div.body_div {
   margin-top: 100px;
-  display: flex;
-  justify-content: space-between;
-  
 }
 
 div.main_content {
-  max-width: 70%;
+  max-width: 60%;
 }
-
 div.main_content h1.main-head {
   position: relative;
   font-family: Sofia Pro;
@@ -149,121 +136,13 @@ div.main_content div.meta a.testimonials {
   border-radius: 15px;
 }
 
-/*div.row div.col {
+div.row div.col {
   display: grid;
-}*/
-
-.form-group{
-  width: 50%;
-}
-
-.reg-form{
-  /*margin-top: 10rem;*/
-  width: 100%
-}
-
-.reg-header{
-  display: flex;
-  height: 0px;
-  margin: 1rem 1rem 1rem 0;
-}
-
-hr{
-  width: 77%;
-  height: 2px;
-  margin: 7.5px;
-  background-color:black;
-  border: none;
-}
-
-
-input[type='text'],[type ='email'], [type = 'tel'] {
-  border: none;
-  border-bottom: 1px solid rgb(167, 164, 164);
-  
-}
-
-#name, #email, #nationality{
-  width: 88%;
- 
-}
-#address{
-  margin-left: 6px;
-}
-
-input, h6{
-  padding-top: 30px;
-}
-
-input:active{
-  transform: scale(0.95);
-}
-
-input:focus{
-  outline: none;
-}
-
-#nationality{
-  position: relative;
-}
-
-.downarr{
-  position: absolute;
-  margin-top: -1.5rem;
-  margin-left: 21rem
-}
-
-input[type='checkbox']{
-  margin-top: 15px;
-  margin-right: 2px;
-}
-
-input[name='backend'], [name='design'], [name='mobile']{
-  margin-left: 1rem; 
-}
-
-label{
-  font-size: 12px;  
-}
-
-.terms{
-  position: relative;
-  margin-top: 40px;
-}
-
-a{
-  text-decoration: none;
-}
-
-button{
-  position: absolute;
-  margin-top: -1.8rem;
-  margin-left: 21.5rem;
-  height: 50px;
-  width: 60px;
-  border-radius: 10px;
-  font-size: 30px;
-  background-color: black;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:active{
-  transform: scale(0.95);
-}
-
-button:focus{
-  outline: none;
-}
-
-button:hover{
-  background-color: #EA524D;
 }
 
 footer.footer {
-  position: fixed;
-  margin-top: 80px;
+  position: absolute;
+  margin-top: 60px;
   left: 40.13px;
   top: 550.24px;
 }
