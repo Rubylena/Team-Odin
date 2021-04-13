@@ -9,8 +9,8 @@ body{
 }
 
 div.container__fluid{
-    width: 90%;
-    padding: 30px;
+    width: 50%;
+    padding: 20px;
 }
 
 section.landing__page{
@@ -70,10 +70,11 @@ a.login_button{
 
 div.body_div{
     margin-top: 100px;
+    width: 100%;
 }
 
 div.main_content{
-    max-width: 60%;
+    max-width: 90%;
 
     h1.main-head {
         position: relative;
