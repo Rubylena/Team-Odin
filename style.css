@@ -51,7 +51,7 @@ a.nav_head span.red {
 
 .menu_line {
   position: absolute;
-  left: 572px;
+  left: 736px;
   width: 60px;
 }
 
@@ -323,6 +323,10 @@ footer.footer p.copyright span.c {
   font-weight: 550;
 }
 
+#mobile-menu {
+  display: none;
+}
+
 
 /* responsiveness */
 @media only screen and (max-width: 1024px) {
@@ -379,6 +383,10 @@ footer.footer p.copyright span.c {
 }
 
 @media only screen and (max-width: 768px) {
+  #mobile-menu {
+    display: block !important;
+  }
+
   .row {
     grid-template-columns: repeat(1, 1fr) !important;
   }
