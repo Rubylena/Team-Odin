@@ -174,7 +174,7 @@ input {
   position: relative;
   bottom: 5px;
   right: 25px;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .track {
@@ -542,8 +542,16 @@ footer.footer p.copyright span.c {
     margin-left: 0px !important;
   }
 
+  .terms {
+    margin: 30px 0;
+  }
+
+  .span-col-2-1 {
+    margin-top: -10px;
+  }
+
   .footer {
-    margin-top: 560px !important;
+    margin-top: 500px !important;
     padding-bottom: 30px !important;
   }
 
