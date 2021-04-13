@@ -4,12 +4,16 @@
   box-sizing: content-box;
 }
 
+.landing__page {
+  overflow: hidden;
+}
+
 body {
   background: #FFFFFF;
 }
 
 div.container__fluid {
-  width: 90%;
+  width: 96%;
   padding: 30px;
 }
 
@@ -41,6 +45,11 @@ a.nav_head span.red {
   color: #EA524D;
 }
 
+.menu_line {
+  position: relative;
+  bottom: 20px;
+}
+
 ul.main {
   list-style: none;
   display: flex;
@@ -57,11 +66,16 @@ ul.main li.main_link a.link {
 }
 
 ul.main li.main_link a.link .active {
-  background: #EA524D;
+  background: #a7a0a0;
   border-radius: 4px;
 }
 
-a.login_button {
+.active {
+  /* border-bottom: 4px solid #EA524D; */
+  text-decoration: underline;
+}
+
+.login_button {
   background: #FFFFFF;
   border: 3px solid #000000;
   box-sizing: border-box;
@@ -80,13 +94,12 @@ a.login_button {
 .hr {
   position: relative;
   bottom: 22px;
+  left: 85px;
   height: 3.4px; 
   border: none; 
   color: #000; 
   background-color: #000; 
-  width: 67%; 
-  text-align: right; 
-  margin: auto;
+  width: 80%;
 }
 
 .check-grid {
@@ -104,9 +117,29 @@ a.login_button {
   margin: 20px 0;
 }
 
-.form-control {
+input {
   border: none;
-  border-bottom: 2px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  margin: 15px 0;
+}
+
+#name, #email, #nationality{
+  width: 98%;
+ 
+}
+#address{
+  margin-left: 6px;
+  width: 48%;
+}
+
+.downarr{
+  position: relative;
+  bottom: 40px;
+  left: 465px;
+}
+
+#tel {
+  width: 48%;
 }
 
 .terms {
@@ -117,7 +150,8 @@ a.login_button {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
-    font-size: 14px;
+    font-size: 13px;
+    color: #000;
 }
 
 .submit_btn {
@@ -128,7 +162,7 @@ a.login_button {
   text-align: center;
   padding: 13px 35px;
   height: 39px;
-  border-radius: 25px;
+  border-radius: 20px;
   margin: 0 auto;
 }
 
@@ -145,7 +179,8 @@ a.login_button {
 
 .pre-track {
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 6px;
+  color: #000;
 }
 
 .form-control::placeholder {
@@ -154,7 +189,7 @@ a.login_button {
 }
 
 div.body_div {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 /* div.main_content {
@@ -267,7 +302,8 @@ footer.footer p.copyright {
   font-family: Sofia Pro;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  margin-top: 80px;
+  font-size: 13px;
   line-height: 16px;
 }
 footer.footer p.copyright span.c {
